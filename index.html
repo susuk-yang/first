@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style media="screen">
+      * {margin: 0; padding: 0;}
+      header {width: 100%; text-align: center; height: 50px; position: fixed;}
+      b {display: inline-block; margin-left: 50px; margin-top: 20px; cursor: pointer;}
+      div {width: 100vw; height: 100vh;}
+    </style>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;600&family=Shrikhand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <b id="bthome">Click! →</b>
+      <a href="#window1"><b id="bt02">1</b></a>
+      <a href="#window2"><b id="bt03">2</b></a>
+      <a href="#window3"><b id="bt04">3</b></a>
+      <a href="#window4"><b id="bt05">4</b></a>
+    </header>
+
+    <section>
+      <div id="window1">
+        <div id="intro">
+          <h1>안녕하세요</h1>
+          <h3>스크롤을 내리시면 저에 대한 내용이 나와요</h3>
+        </div>
+      </div>
+
+      <div id="window2">
+        <img id="school"  src="school.png" >
+        <div id="myself">
+          <h1>나의 모교</h1>
+          <h2>저는 <a href="http://www.jeil.es.kr/wah/main/index.htm">제일초등학교<a/>,<br><a href="http://www.yd.ms.kr/wah/main/index.htm">용동중학교</a>,<br><a href="http://www.taesung.hs.kr/wah/main/index.htm">태성고등학교</a>를 나와 <br> 강릉원주대학교를 다니고 있습니다</h2>
+        </div>
+      </div>
+
+      <div id="window3">
+        <h1>내가 좋아하는 것들 </h1>
+        <div class="container">
+          <div class="hobby">
+            <img class="hobby_img" src="keyboard.png" width="300px;" height="200px";>
+            <p class="hobby_text">커스텀 키보드 꾸미기</p>
+          </div>
+          <div class="hobby">
+            <img class="hobby_img" src="japan.png" width="300px;" height="200px"; >
+            <p class="hobby_text">담백하고 맛있는 일식 요리</p>
+          </div>
+          <div class="hobby">
+            <img class="hobby_img" src="youtube.png" width="300px;" height="200px";>
+            <p class="hobby_text">유튜브 보기</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="window4">
+        <h1><span>TMI</span></h1>
+        <div class="tmicontainer">
+          <div class="tmilist">
+            <p id="tmi1">생일</p>
+            <p id="tmi2">가족관계</p>
+            <p id="tmi3">고향</p>
+          </div>
+          <div class="tmilist">
+            <p id="tmi4">아아 vs 뜨아</p>
+            <p id="tmi5">애플 vs 삼성</p>
+            <p id="tmi6">소주 vs 맥주</p>
+          </div>
+          <div class="tmilist">
+            <p id="tmi7">맛집추천</p>
+            <p id="tmi8">최애 여행지</p>
+            <p id="tmi9">MBTI</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
